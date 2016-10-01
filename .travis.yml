@@ -9,10 +9,9 @@ android:
     - platform-tools
 
     # build tools version
-    - build-tools-24.0.3
+    - build-tools-24.0.2
 
     # The SDK Version
-    - android-23
     - android-24
 
     # Additional components
@@ -28,3 +27,5 @@ before_install:
   # required libs for android build tools
   - sudo apt-get update
   - sudo apt-get install -qq --force-yes libgd2-xpm ia32-libs ia32-libs-multiarch
+
+script: ./gradlew connectedAndroidTest
