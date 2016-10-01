@@ -14,6 +14,7 @@ android:
     # The SDK Version
     - android-22
     - android-23
+    - android-24
 
     - sys-img-armeabi-v7a-android-22
 
