@@ -12,30 +12,14 @@ android:
     - build-tools-23.0.3
 
     # The SDK Version
-    - android-22
     - android-23
     - android-24
-
-    - sys-img-armeabi-v7a-android-22
 
     # Additional components
     - extra-google-m2repository
     - extra-android-m2repository
 
-licenses:
-    - 'android-sdk-preview-license-.+'
-    - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
-
 before_install:
   # required libs for android build tools
   - sudo apt-get update
   - sudo apt-get install -qq --force-yes libgd2-xpm ia32-libs ia32-libs-multiarch
-
-
-before_script:
-  # Create and start emulator
-  - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
-  - emulator -avd test -no-skin -no-audio -no-window &
-  - android-wait-for-emulator
-  - adb shell input keyevent 82 &
