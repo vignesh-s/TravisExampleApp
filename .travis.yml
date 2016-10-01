@@ -18,7 +18,3 @@ android:
     - extra-google-google_play_services
     - extra-google-m2repository
     - extra-android-m2repository
-
-    # Emulator(s) for tests
-    - sys-img-armeabi-v7a-android-22
-    - sys-img-x86-android-17
