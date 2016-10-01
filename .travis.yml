@@ -9,18 +9,17 @@ android:
     - platform-tools
 
     # build tools version
-    - build-tools-24.0.2
+    - build-tools-23.0.3
 
     # The SDK Version
     - android-22
-    - android-24
+    - android-23
 
     - sys-img-armeabi-v7a-android-22
 
     # Additional components
     - extra-google-m2repository
     - extra-android-m2repository
-
 
 licenses:
     - 'android-sdk-preview-license-.+'
