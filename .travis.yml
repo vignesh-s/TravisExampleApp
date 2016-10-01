@@ -1,0 +1,21 @@
+language: android
+android:
+ components:
+    # latest version of the tools
+    - tools
+    - platform-tools
+
+    # build tools version
+    - build-tools-23.0.3
+
+    # The SDK Version
+    - android-23
+
+    # Additional components
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+
+    # Emulator(s) for tests
+    - sys-img-armeabi-v7a-android-22
+    - sys-img-x86-android-17
