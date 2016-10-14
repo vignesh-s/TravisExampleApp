@@ -9,10 +9,10 @@ android:
     - platform-tools
 
     # build tools version
-    - build-tools-23.0.3
+    - build-tools-24
 
     # The SDK Version
-    - android-23
+    - android-22
     - android-24
 
     # Additional components
