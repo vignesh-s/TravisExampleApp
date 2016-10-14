@@ -22,7 +22,4 @@ android:
     - extra-google-m2repository
     - extra-android-m2repository
 
- licenses:
-    - 'android-sdk-preview-license-52d11cd2'
-    - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
+acceptAllLicenses: true
