@@ -12,13 +12,13 @@ env:
     - ANDROID_BUILD_TOOLS_VERSION=24.0.3
     - ANDROID_ABI=armeabi-v7a
     - ANDROID_TAG=google_apis
+    - ADB_INSTALL_TIMEOUT=20 # minutes (2 minutes by default)
 
 android:
  components:
     # latest version of the tools
     - tools
     - platform-tools
-    - tools
 
     # build tools version
     - build-tools-$ANDROID_BUILD_TOOLS_VERSION
