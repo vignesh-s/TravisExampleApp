@@ -27,7 +27,6 @@ android:
     - android-$EMULATOR_API_LEVEL
    
     # For Google APIs
-    - addon-google_apis-google-$ANDROID_API_LEVEL
     - addon-google_apis-google-$EMULATOR_API_LEVEL
 
     # Additional components
