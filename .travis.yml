@@ -10,6 +10,8 @@ addons:
      packages:
        - haveged
 
+install: travis_wait mvn install
+
 env:
   global:
     - ANDROID_API_LEVEL=24
