@@ -5,6 +5,11 @@ dist: precise
 
 jdk: oraclejdk8
 
+addons:
+   apt:
+     packages:
+       - haveged
+
 env:
   global:
     - ANDROID_API_LEVEL=24
