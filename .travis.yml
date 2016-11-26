@@ -1,7 +1,7 @@
 language: android
 
-sudo: required
-dist: precise
+# Use the Travis Container-Based Infrastructure
+sudo: false
 
 jdk: oraclejdk8
 
